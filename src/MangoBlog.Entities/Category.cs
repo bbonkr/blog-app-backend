@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace MangoBlog.Entities
 {
-    public class Category
+    public class Category : EntityBase
     {
-        /// <summary>
-        /// Identifier
-        /// </summary>
-        public string Id { get; set; }
-
         /// <summary>
         /// category name
         /// </summary>
@@ -28,14 +23,8 @@ namespace MangoBlog.Entities
         /// </summary>
         public string Description { get; set; }
 
-        public bool IsEnabled { get; set; } = true;
+        public bool IsEnabled { get; set; } = true;   
 
-        public bool IsDeleted { get; set; } = false;
-
-        public DateTimeOffset CreatedAt { get; set; }
-
-        public DateTimeOffset UpdatedAt { get; set; }
-
-        public DateTimeOffset? DeletedAt { get; set; }
+        public IList<PostCategories> Posts { get; set; }
     }
 }
