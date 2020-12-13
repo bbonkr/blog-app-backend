@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MangoBlog.App", "src\MangoBlog.App\MangoBlog.App.csproj", "{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,7 +14,24 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Debug|x64.Build.0 = Debug|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Debug|x86.Build.0 = Debug|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Release|x64.ActiveCfg = Release|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Release|x64.Build.0 = Release|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Release|x86.ActiveCfg = Release|Any CPU
+		{DEFD5157-B68A-4545-B8D0-FC89230BD0FB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {918BD5B6-B75F-4556-BEE6-292C83BEF605}
 	EndGlobalSection
 EndGlobal
